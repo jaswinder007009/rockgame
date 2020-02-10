@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>Welcome To The Game</bold></h1>
+    </header>
+   <!---- <div>
+       <button id="id1" onclick="onevent()" style="background-color:violet;margin-left:auto;margin-right:auto;display:block;margin-top:auto;margin-bottom:0%">ROCK</button><br><br>
+        <button id="id2" onclick="onevent()" style="background-color:violet;margin-left:auto;margin-right:auto;display:block;margin-top:auto;margin-bottom:0%">PAPER</button><br><br>
+        <button id="id3" onclick="onevent()" style="background-color:violet;margin-left:auto;margin-right:auto;display:block;margin-top:auto;margin-bottom:0%">SCISSOR</button><br><br>    
+    </div>-->
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">      
+         <p>paper over rock</p>
+     </div>
+     <div class="choices">
+         <div class="choice" id="r">
+             <img src="images/handr.png" alt="">
+         </div>
+         <div class="choice" id="p">
+             <img src="images/handp.png" alt="">
+         </div>
+         <div class="choice" id="s">
+             <img src="images/hands.png" alt="">
+         </div>
+     </div>
+      
+         <p id="action-message">Start The Game</p>    
+    
+</body>
+<script src="rock.js"></script>
+</html>
